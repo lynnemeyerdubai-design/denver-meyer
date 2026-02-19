@@ -88,8 +88,6 @@ A detailed portfolio and case studies are available upon request.
 
 ## Availability
 
-**Status indicator:** Available for new projects
-
 **Heading:** Currently accepting select creative partnerships and project engagements.
 
 **Body:** Availability is limited to ensure consistent, high-quality delivery.
