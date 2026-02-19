@@ -163,7 +163,7 @@ h3 {
 .section-label {
   display: inline-block;
   font-family: var(--font-body);
-  font-size: var(--type-small);
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
