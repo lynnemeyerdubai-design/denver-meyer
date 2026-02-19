@@ -31,10 +31,10 @@
 **Heading:** Design that serves the business.
 
 **Lead paragraph:**
-Based in Dubai, UAE, with over 25 years of experience supporting brands, agencies, and organisations across multiple industries. Denver operates as a creative partner, providing strategic direction and dependable execution across brand, marketing, and digital environments.
+Based in Dubai, UAE, with over 25 years of experience supporting brands, agencies, and organisations across multiple industries. I operate as a creative partner, providing strategic direction and dependable execution across brand, marketing, and digital environments.
 
 **Body paragraph:**
-His approach is calm, structured, and commercially focused — ensuring creative work not only looks exceptional, but supports clarity, consistency, and long-term brand strength.
+My approach is calm, structured, and commercially focused — ensuring creative work not only looks exceptional, but supports clarity, consistency, and long-term brand strength.
 
 **Details:**
 - Based in: Dubai, UAE
