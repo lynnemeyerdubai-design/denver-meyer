@@ -230,12 +230,12 @@ section {
 }
 
 .btn--dark {
-  background-color: #D9A46A;
+  background-color: var(--color-primary);
   color: var(--color-white);
 }
 
 .btn--dark:hover {
-  background-color: #CC9458;
+  background-color: #333333;
 }
 
 .btn--inverted {
