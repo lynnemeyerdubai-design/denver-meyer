@@ -77,7 +77,7 @@ I oversee projects from concept to completion, coordinating stakeholders to ensu
 
 **Section label:** Portfolio
 
-**Heading:** Selected Retail Design Work
+**Heading:** Selected Design Work
 
 **Intro:** These selected projects reflect my work within retail design, including flagship stores, luxury boutiques, and branded environments across multiple markets. Each space balances brand presence with operational performance and build precision.
 
