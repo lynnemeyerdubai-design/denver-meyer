@@ -409,11 +409,11 @@ section {
 
 .hero {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   min-height: calc(100vh - var(--nav-height));
   margin-top: var(--nav-height);
-  padding: var(--space-3xl) 0;
+  padding: var(--space-5xl) 0 var(--space-3xl);
   text-align: center;
 }
 
@@ -429,7 +429,7 @@ section {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-muted);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .hero__title {
@@ -447,7 +447,7 @@ section {
   line-height: 1.7;
   color: var(--color-body);
   max-width: 520px;
-  margin: 0 auto var(--space-2xl);
+  margin: 0 auto;
 }
 
 .hero__actions {
@@ -455,6 +455,11 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--space-md);
+  margin-top: var(--space-3xl);
+}
+
+.hero__actions .btn {
+  min-width: 220px;
 }
 
 /* ==========================================================================
