@@ -737,14 +737,13 @@ section {
 .portfolio__clients-grid img {
   height: 28px;
   width: auto;
-  opacity: 0.5;
-  filter: grayscale(100%);
-  transition: opacity var(--transition-base), filter var(--transition-base);
+  opacity: 1;
+  filter: grayscale(100%) brightness(0);
+  transition: filter var(--transition-base);
 }
 
 .portfolio__clients-grid img:hover {
-  opacity: 0.8;
-  filter: grayscale(0%);
+  filter: grayscale(0%) brightness(0);
 }
 
 @media (min-width: 768px) {
