@@ -176,6 +176,13 @@ h3 {
   color: var(--color-muted);
 }
 
+.section-divider {
+  width: 64px;
+  height: 2px;
+  background-color: var(--color-accent);
+  margin: 80px 0 40px 0;
+}
+
 /* ==========================================================================
    3. Layout
    ========================================================================== */
