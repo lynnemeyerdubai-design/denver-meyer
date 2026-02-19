@@ -764,7 +764,7 @@ section {
    ========================================================================== */
 
 .availability {
-  background-color: var(--color-primary);
+  background-color: #1F1F1F;
   text-align: center;
 }
 

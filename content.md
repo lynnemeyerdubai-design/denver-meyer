@@ -104,7 +104,7 @@ A detailed portfolio and case studies are available upon request.
 
 **Heading:** Let's work together.
 
-**Body:** Tell me about your project and objectives. I will respond within 24 hours.
+**Body:** Tell me about your project and objectives. I personally review all enquiries and respond within two business days.
 
 **Email:** denver.meyer@krea8tivdesignconcepts.com
 
