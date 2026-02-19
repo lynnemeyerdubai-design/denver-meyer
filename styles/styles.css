@@ -646,11 +646,19 @@ section {
 }
 
 .portfolio__closing {
-  margin-top: var(--space-2xl);
   font-size: var(--type-caption);
   color: var(--color-muted);
   line-height: 1.7;
   max-width: 640px;
+  margin-bottom: 0;
+}
+
+.portfolio__closing:first-of-type {
+  margin-top: var(--space-2xl);
+}
+
+.portfolio__closing + .portfolio__closing {
+  margin-top: var(--space-md);
 }
 
 @media (min-width: 768px) {
