@@ -75,9 +75,9 @@ A reliable senior design resource for agencies needing additional capacity. Cons
 
 ## Portfolio
 
-**Section label:** Selected Work
+**Section label:** Portfolio
 
-**Heading:** Selected Work.
+**Heading:** Portfolio.
 
 **Subheading:** Selected brand and design work across identity, campaigns, and digital platforms.
 
