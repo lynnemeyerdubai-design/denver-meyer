@@ -451,11 +451,11 @@ section {
   font-size: var(--type-body-lg);
   line-height: 1.4;
   color: var(--color-body);
-  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 16px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .hero__location {
@@ -484,8 +484,8 @@ section {
     padding-right: 20px;
   }
   .hero__tagline {
+    white-space: normal;
     max-width: 340px;
-    word-break: normal;
   }
 }
 
