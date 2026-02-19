@@ -1,6 +1,6 @@
 /* ==========================================================================
    Denver Meyer — Landing Page Styles
-   Design System: Inter, Warm Bronze Accent, Warm Whites
+   Design System: Helvetica Neue Light, Warm Bronze Accent, Warm Whites
    ========================================================================== */
 
 /* ==========================================================================
@@ -9,8 +9,8 @@
 
 :root {
   /* Typography */
-  --font-heading: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --type-hero: clamp(3rem, 6vw, 5.5rem);
   --type-h2: clamp(1.75rem, 3vw, 2.5rem);
@@ -94,9 +94,9 @@ html {
 body {
   font-family: var(--font-body);
   font-size: var(--type-body);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6;
-  color: var(--color-body);
+  color: var(--color-primary);
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -144,12 +144,12 @@ h1, h2, h3 {
   font-family: var(--font-heading);
   color: var(--color-primary);
   line-height: 1.15;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 h2 {
   font-size: var(--type-h2);
-  font-weight: 600;
-  letter-spacing: -0.01em;
 }
 
 h2::after {
@@ -158,14 +158,13 @@ h2::after {
 
 h3 {
   font-size: var(--type-h3);
-  font-weight: 600;
 }
 
 .section-label {
   display: inline-block;
   font-family: var(--font-body);
   font-size: var(--type-small);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -204,7 +203,7 @@ section {
   padding: 0.875rem 2rem;
   font-family: var(--font-body);
   font-size: var(--type-caption);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.02em;
   border-radius: var(--radius-full);
   transition: all var(--transition-base);
@@ -284,7 +283,7 @@ section {
 .nav__logo {
   font-family: var(--font-heading);
   font-size: var(--type-caption);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-primary);
@@ -298,7 +297,7 @@ section {
 
 .nav__links a {
   font-size: var(--type-caption);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--color-body);
 }
@@ -381,7 +380,7 @@ section {
   display: block;
   padding: var(--space-md) 0;
   font-size: var(--type-body-lg);
-  font-weight: 500;
+  font-weight: 400;
   color: var(--color-primary);
   border-bottom: 1px solid rgba(107, 107, 107, 0.6);
 }
@@ -426,7 +425,7 @@ section {
 
 .hero__label {
   font-size: var(--type-caption);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -436,7 +435,7 @@ section {
 .hero__title {
   font-family: var(--font-heading);
   font-size: clamp(48px, 6vw, 72px);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.02em;
   line-height: 1.05;
   color: var(--color-primary);
@@ -504,7 +503,7 @@ section {
 .about__detail-label {
   display: block;
   font-size: var(--type-small);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -514,7 +513,7 @@ section {
 .about__detail-value {
   display: block;
   font-family: var(--font-heading);
-  font-weight: 600;
+  font-weight: 400;
   color: var(--color-primary);
 }
 
@@ -555,7 +554,7 @@ section {
   display: block;
   font-family: var(--font-heading);
   font-size: var(--type-h2);
-  font-weight: 700;
+  font-weight: 400;
   color: var(--color-border);
   line-height: 1;
   margin-bottom: var(--space-md);
@@ -677,7 +676,7 @@ section {
 
 .portfolio__clients-label {
   font-size: var(--type-small);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -747,7 +746,7 @@ section {
 
 .availability__status {
   font-size: var(--type-caption);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -791,7 +790,7 @@ section {
   align-items: center;
   gap: var(--space-sm);
   font-size: var(--type-body-lg);
-  font-weight: 500;
+  font-weight: 400;
   color: var(--color-accent);
   margin-bottom: var(--space-sm);
   transition: color var(--transition-fast);
@@ -822,7 +821,7 @@ section {
 
 .form-group label {
   font-size: var(--type-caption);
-  font-weight: 500;
+  font-weight: 400;
   color: var(--color-primary);
 }
 
@@ -925,7 +924,7 @@ section {
 
 .footer__name {
   font-family: var(--font-heading);
-  font-weight: 700;
+  font-weight: 400;
   color: var(--color-primary);
 }
 
@@ -943,7 +942,7 @@ section {
 
 .footer__links a {
   font-size: var(--type-caption);
-  font-weight: 500;
+  font-weight: 400;
   color: var(--color-body);
 }
 
