@@ -17,8 +17,6 @@
 
 **Positioning line:** Partnering with founders, startups, and agencies to deliver clear, strategic visual execution.
 
-**Location:** Dubai, UAE — working globally
-
 **Primary CTA:** Start a Conversation
 **Secondary CTA:** View Work
 
@@ -77,7 +75,7 @@ I oversee projects from concept to completion, coordinating stakeholders to ensu
 
 **Section label:** Portfolio
 
-**Heading:** Selected Design Work
+**Heading:** Selected Design Work.
 
 **Intro:** These selected projects reflect my work within retail design, including flagship stores, luxury boutiques, and branded environments across multiple markets. Each space balances brand presence with operational performance and build precision.
 

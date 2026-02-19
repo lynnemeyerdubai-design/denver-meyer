@@ -1,6 +1,6 @@
 {
   "project": "Denver Meyer Landing Page",
-  "lastUpdated": "2026-02-19T22:30:00Z",
+  "lastUpdated": "2026-02-20T01:00:00Z",
   "overallStatus": "completed",
   "tasks": [
     { "id": 1, "task": "Create directory structure", "status": "completed" },
@@ -11,6 +11,14 @@
     { "id": 6, "task": "Write scripts/main.js", "status": "completed" },
     { "id": 7, "task": "Download assets from krea8tivdesignconcepts.com", "status": "completed" },
     { "id": 8, "task": "Deploy to Vercel", "status": "completed" },
-    { "id": 9, "task": "Connect contact form to Formspree", "status": "completed" }
+    { "id": 9, "task": "Connect contact form to Formspree", "status": "completed" },
+    { "id": 10, "task": "Switch typography to Helvetica Neue Light system font", "status": "completed" },
+    { "id": 11, "task": "Refine hero layout — single-line name, centered, padding-based height", "status": "completed" },
+    { "id": 12, "task": "Update section labels to 1.25rem", "status": "completed" },
+    { "id": 13, "task": "Update availability section — white text, larger button", "status": "completed" },
+    { "id": 14, "task": "Update section dividers to peach/orange", "status": "completed" },
+    { "id": 15, "task": "Remove footer grey divider line", "status": "completed" },
+    { "id": 16, "task": "Add client logos to portfolio", "status": "completed" },
+    { "id": 17, "task": "Remove Dubai location line from hero", "status": "completed" }
   ]
 }
