@@ -77,16 +77,13 @@ I oversee projects from concept to completion, coordinating stakeholders to ensu
 
 **Section label:** Portfolio
 
-**Heading:** Selected Work.
+**Heading:** Selected Retail Design Work
 
-**Subheading:** Selected brand and design work across identity, campaigns, and digital platforms.
+**Intro:** These selected projects reflect my work within retail design, including flagship stores, luxury boutiques, and branded environments across multiple markets. Each space balances brand presence with operational performance and build precision.
 
-1. **Retail Design** — Store concepts, visual merchandising, and retail environments
-2. **Project Management** — End-to-end coordination from concept through to delivery
-3. **3D Visualization** — Photorealistic renders and spatial design concepts
-4. **2D Technical Drawings** — Precision drafting, floor plans, and construction documentation
+**Images:** 6-image grid (retail-01.jpg through retail-06.jpg)
 
-A detailed portfolio and case studies are available upon request.
+**Closing:** For full portfolio access, additional project categories, or detailed case studies across Commercial Interiors, Technical Documentation, Visualisation, and Project Management — please contact me directly.
 
 ---
 
