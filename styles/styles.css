@@ -444,22 +444,23 @@ section {
   letter-spacing: -0.02em;
   line-height: 1.05;
   color: var(--color-primary);
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 .hero__tagline {
   font-size: var(--type-body-lg);
-  line-height: 1.5;
+  line-height: 1.4;
   color: var(--color-body);
-  max-width: 800px;
-  margin: 0 auto 40px;
-  white-space: nowrap;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 .hero__location {
   font-size: var(--type-caption);
   color: var(--color-muted);
-  margin-top: 8px;
 }
 
 .hero__actions {
@@ -481,6 +482,9 @@ section {
   .hero__container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .hero__tagline {
+    max-width: 320px;
   }
 }
 
