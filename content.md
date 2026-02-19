@@ -31,15 +31,19 @@
 **Heading:** Design that serves the business.
 
 **Lead paragraph:**
-Based in Dubai, UAE, with over 25 years of experience supporting brands, agencies, and organisations across multiple industries. I operate as a creative partner, providing strategic direction and dependable execution across brand, marketing, and digital environments.
+Based in Dubai, I bring over 25 years of experience delivering creative leadership and design execution across retail environments, brand identity systems, and commercial spaces.
 
-**Body paragraph:**
-My approach is calm, structured, and commercially focused — ensuring creative work not only looks exceptional, but supports clarity, consistency, and long-term brand strength.
+**Body paragraphs:**
+As Founder and Creative Director of Krea8tiv Design Concepts, I have led the design and realization of retail and brand environments for global luxury houses, premium retail brands, and international organisations. My work spans concept development, spatial design, technical execution, and project delivery — ensuring that creative vision translates into precise, buildable reality.
+
+I operate as a senior creative partner to brands, agencies, and developers, providing strategic direction, technical expertise, and disciplined execution across every stage of the design process.
+
+My approach combines creative vision with technical depth — ensuring every project delivers not only aesthetic impact, but structural integrity, operational clarity, and long-term brand value.
 
 **Details:**
 - Based in: Dubai, UAE
 - Experience: 25+ Years
-- Focus: Brand & Visual Strategy
+- Focus: Retail Design, Brand Environments & Creative Direction
 
 ---
 
