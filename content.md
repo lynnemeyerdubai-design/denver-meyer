@@ -5,7 +5,7 @@
 ## Navigation
 
 - Logo: DENVER MEYER
-- Links: About | Services | Portfolio | Start a Conversation
+- Links: About | Services | Portfolio | Contact
 
 ---
 
