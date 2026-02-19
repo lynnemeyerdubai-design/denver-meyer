@@ -83,12 +83,7 @@ I oversee projects from concept to completion, coordinating stakeholders to ensu
 
 **Images:** 6-image grid (retail-01.jpg through retail-06.jpg)
 
-**Closing:**
-These examples represent a selection of my retail design work across luxury, commercial, and branded environments.
-
-My experience also extends across commercial interiors, technical documentation, visualisation, and full project delivery.
-
-For additional project examples or detailed case studies, please contact me directly.
+**Closing:** These examples represent a selection of my retail design work across luxury, commercial, and branded environments. My experience also extends across commercial interiors, technical documentation, visualisation, and full project delivery. For additional project examples or detailed case studies, please contact me directly.
 
 ---
 
