@@ -444,8 +444,15 @@ section {
   font-size: var(--type-body-lg);
   line-height: 1.5;
   color: var(--color-body);
-  max-width: 520px;
+  max-width: 800px;
   margin: 0 auto 40px;
+  white-space: nowrap;
+}
+
+.hero__location {
+  font-size: var(--type-caption);
+  color: var(--color-muted);
+  margin-top: 8px;
 }
 
 .hero__actions {
