@@ -45,6 +45,8 @@
       "background": "#FDFCFA",
       "accent": "#8B7355",
       "accentHover": "#74613F",
+      "accentSoft": "#E6A67A",
+      "accentSoftHover": "#D88C5B",
       "white": "#FFFFFF",
       "success": "#4A7C59"
     },

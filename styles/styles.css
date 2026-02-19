@@ -29,6 +29,8 @@
   --color-bg: #FDFCFA;
   --color-accent: #8B7355;
   --color-accent-hover: #74613F;
+  --color-accent-soft: #E6A67A;
+  --color-accent-soft-hover: #D88C5B;
   --color-white: #FFFFFF;
   --color-success: #4A7C59;
 
@@ -150,6 +152,15 @@ h2 {
   letter-spacing: -0.01em;
 }
 
+h2::after {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 2px;
+  background-color: var(--color-accent-soft);
+  margin-top: var(--space-md);
+}
+
 h3 {
   font-size: var(--type-h3);
   font-weight: 600;
@@ -214,7 +225,8 @@ section {
 }
 
 .btn--ghost:hover {
-  border-color: var(--color-primary);
+  border-color: var(--color-accent-soft);
+  color: var(--color-accent-soft-hover);
 }
 
 .btn--inverted {
@@ -282,6 +294,19 @@ section {
 
 .nav__links a:hover {
   color: var(--color-primary);
+}
+
+.nav__links a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1.5px;
+  background-color: var(--color-accent-soft);
+  transition: width var(--transition-base);
+}
+
+.nav__links a:hover::after {
+  width: 100%;
 }
 
 .nav__cta {
@@ -571,6 +596,11 @@ section {
   margin-bottom: var(--space-2xl);
 }
 
+/* Center accent line under centered headings */
+.contact__heading::after {
+  content: none;
+}
+
 .portfolio__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -755,7 +785,7 @@ section {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: var(--color-success);
+  background-color: var(--color-accent-soft);
   animation: pulse 2s ease-in-out infinite;
 }
 
@@ -775,6 +805,12 @@ section {
 .availability__heading {
   color: var(--color-white);
   margin-bottom: var(--space-lg);
+}
+
+.availability__heading::after {
+  background-color: var(--color-accent-soft);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .availability__body {
@@ -865,7 +901,8 @@ section {
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: var(--color-accent);
+  border-color: var(--color-accent-soft);
+  box-shadow: 0 0 0 3px rgba(230, 166, 122, 0.12);
   outline: none;
 }
 
