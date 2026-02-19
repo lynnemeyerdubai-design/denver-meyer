@@ -53,23 +53,47 @@ My approach combines creative vision with technical depth — ensuring every pro
 
 **Heading:** What I do.
 
-### 01 — Graphic Design
-Visual design across brand and marketing needs — from brand collateral to campaign assets. Thoughtful, consistent work that reinforces your brand at every touchpoint.
+### 01 — Retail Design
+I design retail environments that translate brand identity into powerful physical experiences. Over the past 25+ years, I have worked across flagship stores, luxury boutiques, concessions, and multi-site rollouts — shaping spaces that elevate brand presence while driving commercial performance.
 
-### 02 — Creative Direction
-Strategic oversight that keeps creative output aligned with business goals. From concept development to final execution, ensuring every piece serves its purpose.
+My approach balances aesthetic refinement with operational intelligence. I consider customer flow, zoning, merchandising logic, lighting strategy, and material selection to ensure each space functions as effectively as it looks.
 
-### 03 — Brand Asset Development
-Cohesive visual identity systems built for real-world use. Logo design, color systems, typography guidelines, and practical brand documentation your team can work with.
+From initial concept through execution, I ensure the retail environment reflects brand standards while adapting intelligently to local context, site constraints, and commercial objectives.
 
-### 04 — Marketing & Digital Assets
-Campaign materials, social media content, email templates, and digital collateral designed to perform. Clear, professional, and ready to deploy.
+### 02 — Commercial Interior Design
+I develop commercial interior environments that merge brand narrative with practical functionality. My work spans corporate, retail, and customer-facing commercial spaces where design must support both brand perception and day-to-day operations.
 
-### 05 — Presentation & Pitch Deck Design
-Investor decks, sales presentations, and corporate reports that communicate with clarity and confidence. Structured narratives supported by strong visual design.
+With extensive experience coordinating across stakeholders — from clients and architects to contractors and fabricators — I ensure that design intent is preserved throughout implementation.
 
-### 06 — Agency Creative Support
-A reliable senior design resource for agencies needing additional capacity. Consistent quality, professional communication, and seamless integration with your existing workflows.
+Every project is approached with clarity, precision, and commercial awareness, ensuring environments are not only visually compelling but operationally sustainable.
+
+### 03 — Design Conceptualisation
+Strong outcomes begin with clear, strategic concepts. I develop design frameworks that translate business objectives into spatial and visual direction.
+
+This includes mood boards, material palettes, spatial hierarchy, fixture strategy, and experiential flow — ensuring that early creative thinking is grounded in feasibility and execution.
+
+My conceptual work provides a clear roadmap for stakeholders, aligning creative ambition with commercial reality before projects move into technical stages.
+
+### 04 — 2D Technical Documentation
+I produce detailed technical drawing packages required for accurate construction and fit-out. These include layout plans, elevations, joinery details, sections, and specification documentation.
+
+Precision at this stage is critical. My documentation ensures contractors, suppliers, and production teams have complete clarity — reducing risk, preventing costly revisions, and safeguarding design integrity.
+
+With decades of experience in retail fit-outs and commercial installations, I understand how documentation directly impacts build efficiency and final outcomes.
+
+### 05 — 3D Visualisation
+I create refined 3D visualisations that communicate spatial intent with clarity and confidence. These renderings allow clients and stakeholders to fully understand scale, materials, lighting, and brand presence before construction begins.
+
+Visualisation is not simply presentation — it is a decision-making tool. My work enables alignment, reduces uncertainty, and strengthens project approval processes.
+
+By combining conceptual clarity with technical understanding, I ensure visuals accurately represent what will ultimately be delivered.
+
+### 06 — Project Management
+I oversee projects from initial concept through to final delivery, ensuring alignment across creative, technical, and commercial priorities.
+
+My role extends beyond design — I coordinate timelines, manage stakeholders, review site execution, and maintain quality standards throughout the build process.
+
+With extensive experience in complex retail and commercial environments, I bring structure, accountability, and calm leadership to every engagement — ensuring projects are delivered efficiently and to the highest professional standard.
 
 ---
 
