@@ -762,15 +762,20 @@ section {
 }
 
 .availability__heading {
-  color: #1C1C1C;
+  color: var(--color-white);
+  font-weight: 400;
   margin-bottom: var(--space-lg);
 }
 
-
 .availability__body {
-  color: #555555;
+  color: var(--color-white);
   margin-bottom: var(--space-2xl);
   font-size: var(--type-body-lg);
+}
+
+.availability .btn--dark {
+  font-size: 1.125rem;
+  padding: 1.1rem 2.75rem;
 }
 
 /* ==========================================================================
