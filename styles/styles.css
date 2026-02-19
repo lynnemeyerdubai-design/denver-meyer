@@ -921,7 +921,6 @@ section {
   gap: var(--space-lg);
   margin-bottom: var(--space-xl);
   padding-bottom: var(--space-xl);
-  border-bottom: 1px solid rgba(107, 107, 107, 0.6);
 }
 
 .footer__name {
