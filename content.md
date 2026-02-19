@@ -54,34 +54,22 @@ My approach combines creative vision with technical depth — ensuring every pro
 **Heading:** What I do.
 
 ### 01 — Retail Design
-I design retail environments that translate brand identity into powerful physical experiences. My work spans flagship stores, luxury boutiques, concessions, and multi-location rollouts where spatial design must strengthen brand presence while supporting commercial performance.
-
-With over 25 years of experience, I ensure each environment balances visual impact with operational logic — from concept through execution — delivering spaces that are both compelling and commercially effective.
+I design retail environments that translate brand identity into impactful physical experiences — from flagship stores to multi-location rollouts. Each space balances visual refinement with commercial performance.
 
 ### 02 — Commercial Interior Design
-I develop commercial interiors that align brand identity with functional, high-performing environments. My experience includes retail, corporate, and customer-facing spaces where design must communicate professionalism and support real-world operations.
-
-I work closely with clients and delivery teams to ensure clarity, buildability, and consistency — creating environments that reinforce brand credibility while remaining practical and durable.
+I develop commercial interiors that align brand narrative with functional, high-performing environments. My work ensures spaces communicate professionalism while supporting real-world operations.
 
 ### 03 — Design Conceptualisation
-I create clear, strategically grounded design concepts that establish a strong foundation for execution. Each concept translates brand positioning and commercial objectives into spatial direction that can be confidently delivered.
-
-This early clarity aligns stakeholders, reduces risk, and ensures the final outcome remains consistent with the original design intent.
+I create strategically grounded design concepts that translate business objectives into clear spatial direction — reducing ambiguity and ensuring confident execution.
 
 ### 04 — 2D Technical Documentation
-I produce precise technical drawing packages required for fabrication and construction, including layouts, elevations, sections, and detailed joinery drawings.
-
-My documentation ensures contractors can execute efficiently and accurately, protecting design integrity while minimising delays and costly revisions.
+I produce detailed technical drawing packages that enable precise fabrication and construction — protecting design intent and ensuring build accuracy.
 
 ### 05 — 3D Visualisation
-I create high-quality 3D visualisations that allow clients and stakeholders to fully understand spatial intent before construction begins.
-
-This improves decision-making, strengthens alignment, and ensures confidence in the final design outcome.
+I develop high-quality 3D visualisations that bring projects to life before construction begins — supporting alignment and confident decision-making.
 
 ### 06 — Project Management
-I manage projects from concept through completion, coordinating clients, consultants, contractors, and suppliers to ensure smooth delivery.
-
-This structured oversight protects design intent, maintains quality standards, and ensures projects are delivered professionally and efficiently.
+I oversee projects from concept to completion, coordinating stakeholders to ensure smooth delivery, quality control, and commercial efficiency.
 
 ---
 
