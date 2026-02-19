@@ -28,15 +28,25 @@
     });
   }
 
-  // ── Contact Form ───────────────────────────────────────────────────
+  // ── Contact Form (Formspree) ────────────────────────────────────────
   const contactForm = document.getElementById('contact-form');
   const contactSuccess = document.getElementById('contact-success');
 
   if (contactForm && contactSuccess) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
-      contactForm.style.display = 'none';
-      contactSuccess.classList.add('is-visible');
+      var data = new FormData(contactForm);
+      fetch(contactForm.action, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(function (response) {
+        if (response.ok) {
+          contactForm.style.display = 'none';
+          contactSuccess.classList.add('is-visible');
+          contactForm.reset();
+        }
+      });
     });
   }
 })();
