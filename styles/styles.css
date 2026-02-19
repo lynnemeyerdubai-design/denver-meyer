@@ -435,8 +435,8 @@ section {
 
 .hero__title {
   font-family: var(--font-heading);
-  font-size: var(--type-hero);
-  font-weight: 700;
+  font-size: clamp(48px, 6vw, 72px);
+  font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.05;
   color: var(--color-primary);
