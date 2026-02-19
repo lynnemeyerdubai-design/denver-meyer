@@ -27,8 +27,8 @@
   --color-border: #E5E2DD;
   --color-surface: #F7F6F3;
   --color-bg: #FDFCFA;
-  --color-accent: #8B7355;
-  --color-accent-hover: #74613F;
+  --color-accent: #F2B882;
+  --color-accent-hover: #E5A56E;
   --color-accent-soft: #E6A67A;
   --color-accent-soft-hover: #D88C5B;
   --color-white: #FFFFFF;
@@ -211,7 +211,7 @@ section {
 
 .btn--primary {
   background-color: var(--color-accent);
-  color: var(--color-white);
+  color: var(--color-primary);
 }
 
 .btn--primary:hover {
