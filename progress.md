@@ -90,6 +90,10 @@ Live static landing page deployed on Vercel with GitHub auto-deploy. All code pu
 - Footer: DENVER MEYER in uppercase, real LinkedIn and Instagram links added
 - Client logos: added transparent padding to all 6 PNGs, charcoal divider line above, flex grid with 40px max-height
 - Mobile: buttons stack vertically and center, consistent padding across all sections
+- Added krea8tivdesignconcepts.com website link in contact section (below email) and footer
+- Footer now has 4 links: Website, LinkedIn, Instagram, Email
+- Increased section padding for more breathing room between sections
+- Availability section: increased spacing between heading, body text, and button
 
 ---
 
@@ -142,6 +146,7 @@ landing-page/
 
 - Vercel free tier has 100 deploys/day limit — hit on 2026-02-20, resets ~10 hours
 - No staging environment — production only
+- Website link: krea8tivdesignconcepts.com
 - LinkedIn link: linkedin.com/in/denvermeyer
 - Instagram link: instagram.com/krea8tivdesignconcepts
 - Contact form dropdown options match services list
