@@ -9,7 +9,7 @@
 
 ## Current State
 
-Live static landing page deployed on Vercel with GitHub auto-deploy. All code pushed and in sync. Vercel deploy limit hit (resets ~10 hours); Cloudflare tunnel active for sharing in the meantime.
+Live static landing page deployed on Vercel with GitHub auto-deploy. All code committed, pushed, and deployed. Project complete.
 
 ---
 
@@ -144,8 +144,9 @@ landing-page/
 
 ## Known Issues / Notes
 
-- Vercel free tier has 100 deploys/day limit — hit on 2026-02-20, resets ~10 hours
+- Vercel free tier has 100 deploys/day limit
 - No staging environment — production only
+- All code committed, pushed, and deployed to Vercel as of 2026-02-20
 - Website link: krea8tivdesignconcepts.com
 - LinkedIn link: linkedin.com/in/denvermeyer
 - Instagram link: instagram.com/krea8tivdesignconcepts
