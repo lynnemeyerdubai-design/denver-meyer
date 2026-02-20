@@ -862,6 +862,21 @@ section {
   color: var(--color-accent-hover);
 }
 
+.contact__website {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--type-body-lg);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin-bottom: var(--space-2xl);
+  transition: color var(--transition-fast);
+}
+
+.contact__website:hover {
+  color: var(--color-accent-hover);
+}
+
 .contact__location {
   font-size: var(--type-caption);
   color: var(--color-muted);
