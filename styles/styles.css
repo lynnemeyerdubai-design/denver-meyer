@@ -624,6 +624,16 @@ section {
   gap: var(--space-2xl);
 }
 
+.service-card {
+  padding: var(--space-xl);
+  border-radius: var(--radius-md);
+  transition: background-color var(--transition-base);
+}
+
+.service-card:hover {
+  background-color: var(--color-accent);
+}
+
 .service-card__number {
   display: block;
   font-family: var(--font-heading);
@@ -636,7 +646,7 @@ section {
 }
 
 .service-card:hover .service-card__number {
-  color: var(--color-accent);
+  color: var(--color-white);
 }
 
 .service-card__title {
