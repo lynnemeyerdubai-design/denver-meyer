@@ -181,10 +181,6 @@ section {
   section {
     padding: var(--space-3xl) 0;
   }
-
-  .intro__heading {
-    white-space: normal;
-  }
 }
 
 /* ==========================================================================
@@ -436,14 +432,7 @@ section {
 
 @media (max-width: 768px) {
   .hero__tagline {
-    top: auto;
-    bottom: var(--space-xl);
-    left: var(--space-lg);
-  }
-
-  .hero__tagline-text {
-    font-size: 0.875rem;
-    max-width: 65%;
+    display: none;
   }
 }
 
@@ -513,6 +502,12 @@ section {
   font-weight: 400;
   margin-bottom: var(--space-2xl);
   white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .intro__heading {
+    white-space: normal;
+  }
 }
 
 .intro__text {
