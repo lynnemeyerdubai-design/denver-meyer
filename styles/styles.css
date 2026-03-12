@@ -436,6 +436,24 @@ section {
   }
 }
 
+/* Tagline Banner */
+.tagline-banner {
+  background-color: var(--color-dark);
+  text-align: center;
+  padding: 1rem 0;
+}
+.tagline-banner__text {
+  font-family: var(--font-primary);
+  font-size: clamp(0.8rem, 1.4vw, 1rem);
+  font-weight: 800;
+  letter-spacing: 0.25em;
+  color: var(--color-white);
+}
+.tagline-banner__sep {
+  margin: 0 0.75em;
+  opacity: 0.5;
+}
+
 /* ==========================================================================
    7. Terracotta Page Header (Interior Pages)
    ========================================================================== */
