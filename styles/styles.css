@@ -440,7 +440,7 @@ section {
 .tagline-banner {
   background-color: var(--color-dark);
   overflow: hidden;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 .tagline-banner__track {
   display: flex;
@@ -461,8 +461,8 @@ section {
   color: var(--color-terracotta);
 }
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
 
 /* ==========================================================================
