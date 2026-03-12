@@ -397,7 +397,7 @@ section {
   position: relative;
   padding-top: var(--nav-height);
   overflow: hidden;
-  background-color: var(--color-dark);
+  background-color: var(--color-bg);
 }
 
 .hero__image-wrap {
