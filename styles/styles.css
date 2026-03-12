@@ -460,6 +460,10 @@ section {
   margin: 0 0.6em;
   color: var(--color-terracotta);
 }
+.tagline-banner__sep--wide {
+  margin: 0 1.5em;
+  opacity: 0.3;
+}
 @keyframes marquee {
   0% { transform: translateX(-50%); }
   100% { transform: translateX(0); }
