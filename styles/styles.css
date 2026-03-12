@@ -428,8 +428,8 @@ section {
   font-size: clamp(1.1rem, 1.4vw, 1.35rem);
   font-weight: 500;
   line-height: 1.5;
-  color: var(--color-terracotta);
-  max-width: 42%;
+  color: var(--color-text-secondary);
+  max-width: 48%;
   letter-spacing: -0.01em;
 }
 
