@@ -439,24 +439,30 @@ section {
 /* Tagline Banner */
 .tagline-banner {
   background-color: var(--color-dark);
+  overflow: hidden;
+  padding: 1rem 0;
+}
+.tagline-banner__track {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2.5rem 0;
+  width: max-content;
+  animation: marquee 20s linear infinite;
 }
 .tagline-banner__text {
   font-family: var(--font-primary);
-  font-size: clamp(1.5rem, 3.5vw, 3rem);
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
   font-weight: 300;
   letter-spacing: 0.3em;
   color: var(--color-white);
-  width: 100%;
-  text-align: center;
-  padding: 0 var(--space-xl);
+  white-space: nowrap;
+  padding: 0 2rem;
 }
 .tagline-banner__sep {
   margin: 0 0.6em;
   color: var(--color-terracotta);
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* ==========================================================================
