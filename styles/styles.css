@@ -439,19 +439,24 @@ section {
 /* Tagline Banner */
 .tagline-banner {
   background-color: var(--color-dark);
-  text-align: center;
-  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
 }
 .tagline-banner__text {
   font-family: var(--font-primary);
-  font-size: clamp(0.8rem, 1.4vw, 1rem);
-  font-weight: 800;
-  letter-spacing: 0.25em;
+  font-size: clamp(1.5rem, 3.5vw, 3rem);
+  font-weight: 900;
+  letter-spacing: 0.3em;
   color: var(--color-white);
+  width: 100%;
+  text-align: center;
+  padding: 0 var(--space-xl);
 }
 .tagline-banner__sep {
-  margin: 0 0.75em;
-  opacity: 0.5;
+  margin: 0 0.6em;
+  opacity: 0.4;
 }
 
 /* ==========================================================================
