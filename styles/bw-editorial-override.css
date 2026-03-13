@@ -159,6 +159,7 @@ body {
 
 .service-detail__number {
   color: #FF5A00;
+  opacity: 0.15;
 }
 
 /* Process */
@@ -503,5 +504,33 @@ body {
 /* ---------- 18. Project nav ---------- */
 .project-nav {
   border-top-color: #D0D0D0;
+}
+
+/* ---------- 19. Project card CTA ---------- */
+.project-card__cta {
+  display: block;
+  margin-top: var(--space-md);
+  font-size: var(--type-small);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+}
+
+/* ---------- 20. Hero location ---------- */
+.hero__location {
+  display: block;
+  margin-top: var(--space-lg);
+  font-size: var(--type-small);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .hero__location {
+    display: none;
+  }
 }
 
