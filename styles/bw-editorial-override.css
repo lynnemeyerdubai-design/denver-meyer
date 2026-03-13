@@ -365,6 +365,38 @@ body {
   border-top: 1px solid var(--color-divider);
 }
 
+/* ---------- 12b. About — two-column bio layout ---------- */
+.about-content__grid--two-col {
+  grid-template-columns: 1fr;
+  gap: var(--space-3xl);
+}
+
+@media (min-width: 768px) {
+  .about-content__grid--two-col {
+    grid-template-columns: 2fr 3fr;
+    gap: var(--space-4xl);
+    align-items: start;
+  }
+}
+
+.about-content__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- 13. Contact photo ---------- */
+.contact__photo {
+  margin-bottom: var(--space-2xl);
+}
+
+.contact__photo img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+}
+
 /* ---------- 13. Contact ---------- */
 .contact {
   background-color: #FFFFFF;
