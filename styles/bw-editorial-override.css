@@ -124,9 +124,10 @@ body {
   margin-bottom: var(--space-4xl);
 }
 
-/* Editorial brand logos */
+/* Editorial brand logos — override base grayscale/brightness(0) filter */
 .brands__grid img,
 .brands--hero .brands__grid img {
+  filter: none;
   opacity: 0.85;
   max-height: 56px;
   width: auto;
