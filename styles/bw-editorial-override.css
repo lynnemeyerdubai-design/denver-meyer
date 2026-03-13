@@ -80,10 +80,50 @@ body {
 .brands--hero {
   background-color: #FFFFFF;
   border-top: 1px solid var(--color-divider);
+  padding: var(--space-5xl) 0;
 }
 
 .brands--hero .brands__heading {
   color: #000000;
+  font-size: var(--type-caption);
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-4xl);
+}
+
+/* Editorial brand logos — no filter, natural black on white */
+.brands__grid img,
+.brands--hero .brands__grid img {
+  filter: none;
+  opacity: 0.85;
+  max-height: 56px;
+  width: auto;
+  object-fit: contain;
+  transition: opacity var(--transition-base);
+}
+
+.brands__grid img:hover,
+.brands--hero .brands__grid img:hover {
+  opacity: 1;
+}
+
+.brands--hero .brands__grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3xl) var(--space-5xl);
+}
+
+@media (max-width: 767px) {
+  .brands--hero .brands__grid {
+    gap: var(--space-2xl) var(--space-3xl);
+  }
+  .brands__grid img,
+  .brands--hero .brands__grid img {
+    max-height: 40px;
+  }
 }
 
 /* ---------- 5. Intro ---------- */
