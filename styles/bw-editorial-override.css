@@ -379,6 +379,12 @@ body {
   }
 }
 
+.about-content__image {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
 .about-content__image img {
   width: 100%;
   height: auto;
