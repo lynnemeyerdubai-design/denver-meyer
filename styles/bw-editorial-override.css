@@ -405,6 +405,12 @@ body {
   display: block;
 }
 
+@media (min-width: 1024px) {
+  .contact__grid > div:last-child {
+    align-self: end;
+  }
+}
+
 /* ---------- 13. Contact ---------- */
 .contact {
   background-color: #FFFFFF;
