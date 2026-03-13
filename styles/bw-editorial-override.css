@@ -99,11 +99,13 @@ body {
 /* Editorial brand logos — push light greys to pure white */
 .brands__grid img,
 .brands--hero .brands__grid img {
-  filter: brightness(1.15) contrast(1.3);
+  filter: brightness(1.2) contrast(1.5);
   opacity: 0.85;
   max-height: 56px;
   width: auto;
   object-fit: contain;
+  mix-blend-mode: multiply;
+  background: transparent;
   transition: opacity var(--transition-base);
 }
 
