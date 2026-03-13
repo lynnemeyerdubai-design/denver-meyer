@@ -611,6 +611,18 @@ body {
   color: #999999;
 }
 
+/* Mobile: centre footer content */
+@media (max-width: 767px) {
+  .footer__top,
+  .footer__bottom {
+    align-items: center;
+    text-align: center;
+  }
+  .footer__links {
+    justify-content: center;
+  }
+}
+
 /* Divider before footer (contact page) */
 .footer-divider {
   width: 100%;
