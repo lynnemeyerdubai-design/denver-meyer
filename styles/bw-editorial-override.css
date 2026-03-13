@@ -131,6 +131,9 @@ body {
   .brands__grid img,
   .brands--hero .brands__grid img {
     max-height: 40px;
+    filter: brightness(1.4) contrast(2);
+    background-color: #FFFFFF;
+    padding: 4px;
   }
 }
 
@@ -411,8 +414,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-lg);
-  position: sticky;
-  top: calc(var(--nav-height, 72px) + var(--space-xl));
+}
+
+@media (min-width: 768px) {
+  .about-content__image {
+    position: sticky;
+    top: calc(var(--nav-height, 72px) + var(--space-xl));
+  }
 }
 
 .about-content__image img {
