@@ -299,6 +299,20 @@ body {
   color: rgba(255,255,255,0.7);
 }
 
+.cta__phone {
+  display: inline-block;
+  margin-top: var(--space-lg);
+  font-size: var(--type-body-lg);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #FF5A00;
+  text-decoration: none;
+}
+
+.cta__phone:hover {
+  color: #E04F00;
+}
+
 /* CTA buttons — white on black, ALL pages (CTA is always on black bg) */
 .cta .btn {
   background-color: #FFFFFF;
