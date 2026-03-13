@@ -452,6 +452,23 @@ body {
   display: block;
 }
 
+/* Mobile: hide 2nd image from left column, show inline version */
+.about-content__image--mobile-only {
+  display: block;
+}
+.about-content__image--desktop-only {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .about-content__image--mobile-only {
+    display: none;
+  }
+  .about-content__image--desktop-only {
+    display: block;
+  }
+}
+
 /* ---------- 13. Contact photo ---------- */
 .contact__photo {
   margin-bottom: var(--space-2xl);
