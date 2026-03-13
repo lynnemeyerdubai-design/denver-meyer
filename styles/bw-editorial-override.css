@@ -75,6 +75,30 @@ body {
   display: none;
 }
 
+/* Hero tagline strip — below hero image */
+.hero-tagline-strip {
+  background-color: #000000;
+  padding: var(--space-3xl) 0;
+}
+
+.hero-tagline-strip__text {
+  font-size: clamp(1.05rem, 1.3vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: var(--max-width-reading);
+}
+
+.hero-tagline-strip__location {
+  display: block;
+  margin-top: var(--space-lg);
+  font-size: var(--type-small);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+}
+
 /* ---------- 4. Brands ---------- */
 .brands {
   background-color: #FFFFFF;
