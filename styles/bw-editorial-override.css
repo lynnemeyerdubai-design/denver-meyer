@@ -469,6 +469,14 @@ body {
   color: #777777;
 }
 
+.footer__studio {
+  display: block;
+  font-size: var(--type-caption);
+  color: #777777;
+  margin-top: var(--space-xs);
+  font-weight: 300;
+}
+
 .footer__links a {
   color: #777777;
 }
