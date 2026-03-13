@@ -277,6 +277,11 @@ body {
   border-bottom: none;
 }
 
+.pull-quote--bordered {
+  border-bottom: 2px solid #FF5A00;
+  padding-bottom: var(--space-2xl);
+}
+
 .pull-quote__author {
   color: #FF5A00;
 }
