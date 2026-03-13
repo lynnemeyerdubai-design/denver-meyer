@@ -406,8 +406,8 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .contact__grid > div:last-child {
-    align-self: end;
+  .contact__grid {
+    align-items: start;
   }
 }
 
