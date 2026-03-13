@@ -75,10 +75,10 @@ body {
   display: none;
 }
 
-/* Hero tagline strip — below hero image */
+/* Hero tagline strip — inside hero, below image */
 .hero-tagline-strip {
   background-color: #000000;
-  padding: var(--space-xl) 0;
+  padding: var(--space-lg) 0 var(--space-xl);
   text-align: center;
 }
 
