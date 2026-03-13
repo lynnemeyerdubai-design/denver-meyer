@@ -100,7 +100,14 @@ body {
   max-height: 56px;
   width: auto;
   object-fit: contain;
+  mix-blend-mode: multiply;
   transition: opacity var(--transition-base);
+}
+
+/* Clarins has white text on black bg — exclude from blend mode */
+.brands__grid img[alt="Clarins"],
+.brands--hero .brands__grid img[alt="Clarins"] {
+  mix-blend-mode: normal;
 }
 
 .brands__grid img:hover,
