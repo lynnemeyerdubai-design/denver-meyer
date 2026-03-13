@@ -373,7 +373,7 @@ body {
 
 @media (min-width: 768px) {
   .about-content__grid--two-col {
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 2fr;
     gap: var(--space-4xl);
     align-items: start;
   }
@@ -383,6 +383,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-lg);
+  position: sticky;
+  top: calc(var(--nav-height, 72px) + var(--space-xl));
 }
 
 .about-content__image img {
