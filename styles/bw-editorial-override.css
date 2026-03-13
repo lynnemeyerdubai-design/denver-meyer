@@ -1,0 +1,421 @@
+/* ==========================================================================
+   Denver Meyer — B&W Editorial Style
+   Loaded AFTER styles.css to apply the black-and-white editorial palette.
+   ========================================================================== */
+
+/* ---------- 0. Variable overrides ---------- */
+:root {
+  --color-bg: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-dark: #000000;
+  --color-text: #000000;
+  --color-text-secondary: #444444;
+  --color-text-light: #777777;
+  --color-terracotta: #FF5A00;
+  --color-terracotta-dark: #E04F00;
+  --color-terracotta-light: rgba(255, 90, 0, 0.08);
+  --color-border: #D0D0D0;
+  --color-white: #FFFFFF;
+
+  /* Divider line colour — dark charcoal, not black */
+  --color-divider: #333333;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.10);
+}
+
+/* ---------- 1. Base ---------- */
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+::selection {
+  background-color: #FF5A00;
+  color: #FFFFFF;
+}
+
+:focus-visible {
+  outline-color: #FF5A00;
+}
+
+/* ---------- 2. Navigation ---------- */
+.nav {
+  background: rgba(0, 0, 0, 0.96);
+}
+
+.nav--scrolled {
+  border-bottom-color: rgba(255,255,255,0.08);
+}
+
+.nav__mobile {
+  background: rgba(0, 0, 0, 0.98);
+}
+
+.nav__links a::after {
+  background-color: #FF5A00;
+}
+
+/* ---------- 3. Hero ---------- */
+.hero {
+  background-color: #000000;
+}
+
+.hero__tagline-text {
+  color: #444444;
+}
+
+/* Tagline banner — hidden */
+.tagline-banner {
+  display: none;
+}
+
+/* ---------- 4. Brands ---------- */
+.brands {
+  background-color: #FFFFFF;
+  border-top: 1px solid var(--color-divider);
+}
+
+.brands--hero {
+  background-color: #FFFFFF;
+  border-top: 1px solid var(--color-divider);
+}
+
+.brands--hero .brands__heading {
+  color: #000000;
+}
+
+/* ---------- 5. Intro ---------- */
+.intro {
+  background-color: #FFFFFF;
+}
+
+/* ---------- 6. Services ---------- */
+.services {
+  background-color: #FFFFFF;
+}
+
+.service-card {
+  background-color: #FFFFFF;
+  border-color: #D0D0D0;
+}
+
+.service-card:hover {
+  border-color: #000000;
+}
+
+.service-card__number {
+  color: #FF5A00;
+}
+
+/* Service detail — match spacing between items */
+.service-detail {
+  border-bottom-color: #D0D0D0;
+  padding: var(--space-4xl) 0;
+}
+
+.service-detail__number {
+  color: #FF5A00;
+}
+
+/* Process */
+.process {
+  background-color: #000000;
+}
+
+.process__step {
+  border-color: rgba(255,255,255,0.1);
+}
+
+.process__step:hover {
+  border-top-color: #FF5A00;
+}
+
+.process__step-number {
+  color: #FF5A00;
+}
+
+/* ---------- 7. Page Header (Interior pages) ---------- */
+.page-header {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding-bottom: var(--space-3xl);
+}
+
+.page-header__label {
+  color: #777777;
+}
+
+.page-header__title {
+  color: #000000;
+}
+
+.page-header__subtitle {
+  color: #444444;
+}
+
+/* Injected divider after page-header — full width, soft grey */
+.page-header-divider {
+  width: 100%;
+  height: 0;
+  border: none;
+  border-top: 1px solid #D0D0D0;
+  margin: 0;
+}
+
+/* Gap after header divider → content (consistent across all interior pages) */
+.page-header + .page-header-divider + section,
+.page-header + .page-header-divider + * {
+  padding-top: var(--space-4xl) !important;
+}
+
+/* ---------- 8. Testimonials ---------- */
+.testimonials {
+  background-color: #000000;
+}
+
+.testimonial-card {
+  border-left: 3px solid #FF5A00;
+}
+
+.testimonial-card__author {
+  color: rgba(255,255,255,0.5);
+  font-weight: 300;
+}
+
+/* Pull quote */
+.pull-quote {
+  border-top: 2px solid #FF5A00;
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.pull-quote__author {
+  color: #FF5A00;
+}
+
+/* ---------- 9. CTA Section ---------- */
+.cta {
+  background-color: #000000;
+}
+
+.cta__heading {
+  color: #FFFFFF;
+}
+
+.cta__text {
+  color: rgba(255,255,255,0.7);
+}
+
+/* CTA buttons — white on black, ALL pages (CTA is always on black bg) */
+.cta .btn {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.cta .btn:hover {
+  background-color: #E8E8E8;
+}
+
+/* ---------- 10. Insights ---------- */
+.insights-preview {
+  background-color: #FFFFFF;
+  border-top-color: #D0D0D0;
+}
+
+.insight-card {
+  background-color: #FFFFFF;
+  border-color: #D0D0D0;
+}
+
+.insight-card:hover {
+  border-color: #000000;
+}
+
+.insight-card__link {
+  color: #FF5A00;
+}
+
+.insight-card:hover .insight-card__link {
+  color: #E04F00;
+}
+
+/* Article page */
+.article {
+  background-color: #FFFFFF;
+}
+
+/* ---------- 11. Portfolio ---------- */
+.project-card {
+  background-color: #000000;
+}
+
+/* ---------- 12. About ---------- */
+.about-content {
+  background-color: #FFFFFF;
+}
+
+/* Design Philosophy — pure white */
+.about-section {
+  background-color: #FFFFFF;
+}
+
+/* Accent line between Design Philosophy and Leadership (injected via server) */
+.about-accent-divider {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: 0;
+  border: none;
+  border-top: 1px solid var(--color-divider);
+}
+
+/* ---------- 13. Contact ---------- */
+.contact {
+  background-color: #FFFFFF;
+}
+
+.contact__link {
+  color: #FF5A00;
+}
+
+.contact__link:hover {
+  color: #E04F00;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background-color: #FFFFFF;
+  border-color: #D0D0D0;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #FF5A00;
+  box-shadow: 0 0 0 3px rgba(255, 90, 0, 0.08);
+}
+
+/* Contact form submit button — black on white bg */
+.contact__form .btn {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.contact__form .btn:hover {
+  background-color: #222222;
+}
+
+/* ---------- 14. Buttons (global) ---------- */
+.btn {
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn--primary {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn--primary:hover {
+  background-color: #222222;
+}
+
+.btn--terracotta {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn--terracotta:hover {
+  background-color: #222222;
+}
+
+.btn--white {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.btn--white:hover {
+  background-color: #F0F0F0;
+}
+
+.btn--ghost-white {
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn--outline {
+  border-color: #D0D0D0;
+  color: #000000;
+}
+
+.btn--outline:hover {
+  border-color: #000000;
+}
+
+/* ---------- 15. Footer ---------- */
+.footer {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.footer__top {
+  border-bottom-color: #D0D0D0;
+}
+
+.footer__brand {
+  color: #000000;
+}
+
+.footer__title {
+  color: #777777;
+}
+
+.footer__links a {
+  color: #777777;
+}
+
+.footer__links a:hover {
+  color: #000000;
+}
+
+.footer__bottom {
+  color: #999999;
+}
+
+/* Divider before footer (contact page) */
+.footer-divider {
+  width: 100%;
+  height: 0;
+  border: none;
+  border-top: 1px solid var(--color-divider);
+  margin: 0;
+}
+
+/* ---------- 16. Section dividers — contained width like footer, black ---------- */
+.section-divider,
+.section-divider--terracotta,
+.section-divider--dark {
+  max-width: calc(var(--max-width) - var(--space-xl) * 2);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-top: 1px solid var(--color-divider) !important;
+  border-top-width: 1px !important;
+}
+
+/* ---------- 17. Section labels ---------- */
+.section-label--terracotta {
+  color: #FF5A00;
+}
+
+/* ---------- 18. Project nav ---------- */
+.project-nav {
+  border-top-color: #D0D0D0;
+}
+
