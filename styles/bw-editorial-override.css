@@ -104,10 +104,10 @@ body {
   transition: opacity var(--transition-base);
 }
 
-/* Clarins has white text on black bg — exclude from blend mode */
+/* Clarins: invert white-on-black to black-on-white, then blend away bg */
 .brands__grid img[alt="Clarins"],
 .brands--hero .brands__grid img[alt="Clarins"] {
-  mix-blend-mode: normal;
+  filter: invert(1);
 }
 
 .brands__grid img:hover,
