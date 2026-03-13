@@ -454,18 +454,18 @@ body {
 
 /* Mobile: hide 2nd image from left column, show inline version */
 .about-content__image--mobile-only {
-  display: block;
+  display: block !important;
 }
-.about-content__image--desktop-only {
-  display: none;
+.about-content__image img.about-content__image--desktop-only {
+  display: none !important;
 }
 
 @media (min-width: 768px) {
   .about-content__image--mobile-only {
-    display: none;
+    display: none !important;
   }
-  .about-content__image--desktop-only {
-    display: block;
+  .about-content__image img.about-content__image--desktop-only {
+    display: block !important;
   }
 }
 
