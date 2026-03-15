@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/bw-editorial-override.css">
+  <link rel="stylesheet" href="styles/lightbox.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>D</text></svg>">
 </head>
 <body data-page="portfolio">
@@ -42,91 +43,190 @@
 
   <main>
 
-    <!-- Terracotta Header -->
     <section class="page-header">
       <div class="container">
         <h1 class="page-header__title fade-in">Selected Work</h1>
-        <p class="page-header__subtitle fade-in">A selection of recent retail projects from a broader portfolio of commercial and interior design work. Each space balances brand presence with operational performance and build precision.</p>
+        <p class="page-header__subtitle fade-in">A selection of retail environments drawn from a broader portfolio of commercial and interior design work developed over more than two decades. These projects focus on branded retail spaces for international clients, combining store design, spatial planning, brand integration, and build coordination to deliver spaces that balance strong brand presence with operational performance.</p>
       </div>
     </section>
     <hr class="page-header-divider">
 
-    <!-- Full Project Grid -->
-    <section style="padding-top: var(--space-5xl);">
+    <!-- DIOR — 19 images, show 6 preview -->
+    <section class="portfolio-brand">
       <div class="container">
-        <div class="portfolio__grid">
-          <a href="/projects/luxury-parfums-boutique.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/project-dior-retail.jpg" alt="Luxury Parfums Boutique" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Retail Store Design</p>
-              <h3 class="project-card__title">Luxury Parfums Boutique</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/luxury-beauty-retail.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-01.jpg" alt="Luxury Beauty Retail" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Retail Store Design</p>
-              <h3 class="project-card__title">Luxury Beauty Retail</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/jewellery-flagship.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-07.jpg" alt="Jewellery Flagship Retail" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Retail Store Design</p>
-              <h3 class="project-card__title">Jewellery Flagship Retail</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/flagship-retail-storefront.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-02.jpg" alt="Flagship Retail Storefront" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Retail Store Design</p>
-              <h3 class="project-card__title">Flagship Retail Storefront</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/fine-jewellery-boutique.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-03.jpg" alt="Fine Jewellery Boutique" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Retail Store Design</p>
-              <h3 class="project-card__title">Fine Jewellery Boutique</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/boutique-commercial-interior.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-04.jpg" alt="Boutique Workplace Interior" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Workplace Interior</p>
-              <h3 class="project-card__title">Boutique Workplace Interior</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/premium-retail-concept.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-05.jpg" alt="Premium Retail Concept" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">3D Visualisation</p>
-              <h3 class="project-card__title">Premium Retail Concept</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/high-end-retail-environment.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-06.jpg" alt="High-End Retail Environment" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Retail Store Design</p>
-              <h3 class="project-card__title">High-End Retail Environment</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
-          <a href="/projects/luxury-retail-boutique.html" class="project-card fade-in">
-            <img class="project-card__image" src="assets/retail-08.jpg" alt="Luxury Retail Boutique" loading="lazy">
-            <div class="project-card__overlay">
-              <p class="project-card__category">Retail Store Design</p>
-              <h3 class="project-card__title">Luxury Retail Boutique</h3>
-              <span class="project-card__cta">View Project &rarr;</span>
-            </div>
-          </a>
+        <h2 class="portfolio-brand__heading fade-in">Dior</h2>
+        <p class="portfolio-brand__sub fade-in">City Walk Dubai<span class="sep">·</span>Harvey Nichols Riyadh<span class="sep">·</span>Poison Podium Dubai Mall</p>
+        <div class="portfolio-brand__grid">
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/dior/city-walk-dubai/04.jpg" alt="Dior — City Walk Dubai" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">City Walk · Dubai</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/dior/city-walk-dubai/03.jpg" alt="Dior — City Walk Dubai" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">City Walk · Dubai</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/dior/harvey-nichols-riyadh/01.jpg" alt="Dior — Harvey Nichols Riyadh" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Harvey Nichols · Riyadh</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/dior/harvey-nichols-riyadh/03.jpg" alt="Dior — Harvey Nichols Riyadh" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Harvey Nichols · Riyadh</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/dior/poison-podium-dubai-mall/03.jpg" alt="Dior — Poison Podium Dubai Mall" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Poison Podium · Dubai Mall</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/dior/poison-podium-dubai-mall/06.jpg" alt="Dior — Poison Podium Dubai Mall" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Poison Podium · Dubai Mall</p>
+          </div>
+        </div>
+        <a href="/projects/dior-gallery.html" class="portfolio-brand__gallery-link fade-in">View Full Gallery &rarr;</a>
+      </div>
+    </section>
+
+    <!-- BOUCHERON — 7 images, show all -->
+    <section class="portfolio-brand">
+      <div class="container">
+        <h2 class="portfolio-brand__heading fade-in">Boucheron</h2>
+        <p class="portfolio-brand__sub fade-in">Dubai Mall<span class="sep">·</span>Bloomingdale's</p>
+        <div class="portfolio-brand__grid">
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/boucheron/dubai-mall-bloomingdales/01.png" alt="Boucheron — Dubai Mall" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Dubai Mall</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/boucheron/dubai-mall-bloomingdales/02.png" alt="Boucheron — Dubai Mall" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Dubai Mall</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/boucheron/dubai-mall-bloomingdales/03.jpg" alt="Boucheron — Dubai Mall" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Dubai Mall</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/boucheron/dubai-mall-bloomingdales/04.jpg" alt="Boucheron — Dubai Mall" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Dubai Mall</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/boucheron/dubai-mall-bloomingdales/05.jpg" alt="Boucheron — Dubai Mall" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Dubai Mall</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/boucheron/dubai-mall-bloomingdales/06.png" alt="Boucheron — Bloomingdale's" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Bloomingdale's · Dubai</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/boucheron/dubai-mall-bloomingdales/07.png" alt="Boucheron — Bloomingdale's" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Bloomingdale's · Dubai</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MESSIKA — 34 images, show 6 preview -->
+    <section class="portfolio-brand">
+      <div class="container">
+        <h2 class="portfolio-brand__heading fade-in">Messika</h2>
+        <p class="portfolio-brand__sub fade-in">Mall of the Emirates Dubai<span class="sep">·</span>Vendôme Doha<span class="sep">·</span>Faisaliyah Riyadh<span class="sep">·</span>Amman Jordan</p>
+        <div class="portfolio-brand__grid">
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/messika/mall-of-emirates-dubai/01.jpg" alt="Messika — Mall of the Emirates Dubai" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Mall of the Emirates · Dubai</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/messika/mall-of-emirates-dubai/03.jpeg" alt="Messika — Mall of the Emirates Dubai" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Mall of the Emirates · Dubai</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/messika/vendome-doha/01.png" alt="Messika — Vendôme Doha" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Vendôme Mall · Doha</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/messika/faisaliyah-riyadh/01.jpg" alt="Messika — Faisaliyah Riyadh" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Faisaliyah · Riyadh</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/messika/amman-jordan/01.jpg" alt="Messika — Amman Jordan" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Amman · Jordan</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/messika/amman-jordan/05.jpg" alt="Messika — Amman Jordan" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Amman · Jordan</p>
+          </div>
+        </div>
+        <a href="/projects/messika-gallery.html" class="portfolio-brand__gallery-link fade-in">View Full Gallery &rarr;</a>
+      </div>
+    </section>
+
+    <!-- EDGARS — 5 images, show all -->
+    <section class="portfolio-brand">
+      <div class="container">
+        <h2 class="portfolio-brand__heading fade-in">Edgars</h2>
+        <p class="portfolio-brand__sub fade-in">Tyger Valley<span class="sep">·</span>South Africa</p>
+        <div class="portfolio-brand__grid">
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/edgars/tyger-valley/01.jpg" alt="Edgars — Tyger Valley" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Tyger Valley · Cape Town</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/edgars/tyger-valley/02.jpg" alt="Edgars — Tyger Valley" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Tyger Valley · Cape Town</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/edgars/tyger-valley/03.jpg" alt="Edgars — Tyger Valley" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Tyger Valley · Cape Town</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/edgars/tyger-valley/04.jpg" alt="Edgars — Tyger Valley" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Tyger Valley · Cape Town</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/edgars/tyger-valley/05.jpg" alt="Edgars — Tyger Valley" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Tyger Valley · Cape Town</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MCD — 8 images, show all -->
+    <section class="portfolio-brand">
+      <div class="container">
+        <h2 class="portfolio-brand__heading fade-in">Maison Christian Dior</h2>
+        <p class="portfolio-brand__sub fade-in">Sandton City<span class="sep">·</span>South Africa</p>
+        <div class="portfolio-brand__grid">
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/01.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/02.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/03.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/04.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/05.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/06.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/07.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
+          <div class="portfolio-brand__card fade-in">
+            <img class="portfolio-brand__img" src="assets/portfolio/mcd/sandton/08.jpg" alt="MCD — Sandton City" loading="lazy" onclick="openLightbox(this)">
+            <p class="portfolio-brand__caption">Sandton City · Johannesburg</p>
+          </div>
         </div>
       </div>
     </section>
@@ -141,6 +241,15 @@
     </section>
 
   </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox__close" onclick="closeLightbox(event)" aria-label="Close">&times;</button>
+    <button class="lightbox__prev" onclick="prevImage(event)" aria-label="Previous">&lsaquo;</button>
+    <img class="lightbox__image" id="lightbox-img" src="" alt="">
+    <button class="lightbox__next" onclick="nextImage(event)" aria-label="Next">&rsaquo;</button>
+    <span class="lightbox__counter" id="lightbox-counter"></span>
+  </div>
 
   <footer class="footer">
     <div class="container">
@@ -171,5 +280,6 @@
   </footer>
 
   <script src="scripts/main.js" defer></script>
+  <script src="scripts/lightbox.js" defer></script>
 </body>
 </html>

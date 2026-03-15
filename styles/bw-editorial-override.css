@@ -62,6 +62,36 @@ body {
   background-color: #000000;
 }
 
+/* Hero overlay tagline — left-aligned under subtitle in hero image */
+.hero__image-wrap {
+  position: relative;
+}
+
+.hero__overlay-tagline {
+  position: absolute;
+  top: 68%;
+  left: 5.5%;
+  right: 50%;
+  text-align: left;
+  font-size: clamp(0.95rem, 1.15vw, 1.1rem);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.7;
+  color: #FF5A00;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .hero__overlay-tagline {
+    font-size: 0.8rem;
+    top: auto;
+    bottom: var(--space-xl);
+    left: var(--space-lg);
+    right: var(--space-lg);
+    line-height: 1.5;
+  }
+}
+
 .hero__tagline-text {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -689,5 +719,127 @@ body {
   .hero__location {
     display: none;
   }
+}
+
+/* ---------- 21. Portfolio — scrollable brand sections ---------- */
+.portfolio-brand {
+  padding: var(--space-5xl) 0;
+}
+
+.portfolio-brand + .portfolio-brand {
+  border-top: 1px solid var(--color-divider);
+}
+
+.portfolio-brand__heading {
+  font-family: var(--font-primary);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 var(--space-sm);
+}
+
+.portfolio-brand__sub {
+  font-size: var(--type-small);
+  font-weight: 300;
+  color: #999999;
+  letter-spacing: 0.02em;
+  margin: 0 0 var(--space-3xl);
+  word-spacing: 0.15em;
+}
+
+.portfolio-brand__sub .sep {
+  margin: 0 0.6em;
+}
+
+.portfolio-brand__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+@media (min-width: 640px) {
+  .portfolio-brand__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+.portfolio-brand__img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+  transition: opacity var(--transition-base);
+}
+
+.portfolio-brand__img:hover {
+  opacity: 0.85;
+}
+
+/* Image card wrapper with caption */
+.portfolio-brand__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-brand__caption {
+  font-size: var(--type-caption);
+  font-weight: 300;
+  color: #999999;
+  letter-spacing: 0.02em;
+  margin-top: var(--space-sm);
+  line-height: 1.4;
+}
+
+/* Odd last image spans full width */
+.portfolio-brand__card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.portfolio-brand__card:last-child:nth-child(odd) .portfolio-brand__img {
+  max-height: 480px;
+  object-position: center;
+}
+
+/* Gallery pages — natural image proportions */
+.portfolio-brand--gallery .portfolio-brand__img {
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.portfolio-brand__gallery-link {
+  display: inline-block;
+  margin-top: var(--space-2xl);
+  font-size: var(--type-small);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #777777;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.portfolio-brand__gallery-link:hover {
+  color: #000000;
+}
+
+/* ---------- 22. Page header label (breadcrumb) ---------- */
+.page-header__label {
+  display: block;
+  font-size: var(--type-caption);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #777777;
+  margin-bottom: var(--space-md);
+}
+
+.page-header__label a:hover {
+  color: #000000;
 }
 
