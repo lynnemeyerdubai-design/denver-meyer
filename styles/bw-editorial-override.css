@@ -805,12 +805,34 @@ body {
   object-position: center;
 }
 
-/* Gallery pages — natural image proportions */
-.portfolio-brand--gallery .portfolio-brand__img {
-  aspect-ratio: auto;
-  height: auto;
-  object-fit: contain;
+/* Gallery pages — masonry with natural proportions */
+.portfolio-brand--gallery .portfolio-brand__grid {
+  display: block !important;
+  columns: 2;
+  column-gap: var(--space-xl);
 }
+
+@media (max-width: 639px) {
+  .portfolio-brand--gallery .portfolio-brand__grid {
+    columns: 1;
+  }
+}
+
+.portfolio-brand--gallery .portfolio-brand__card {
+  break-inside: avoid;
+  margin-bottom: var(--space-xl);
+  display: block;
+  width: 100%;
+}
+
+.portfolio-brand--gallery .portfolio-brand__img {
+  width: 100%;
+  aspect-ratio: auto !important;
+  height: auto !important;
+  object-fit: contain;
+  display: block;
+}
+
 
 .portfolio-brand__gallery-link {
   display: inline-block;
