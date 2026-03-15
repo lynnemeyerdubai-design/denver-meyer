@@ -237,8 +237,11 @@ body {
 
 .process__step {
   border-color: rgba(255,255,255,0.1);
-  border-top: 2px solid #FF5A00;
-  border-bottom: 2px solid #FF5A00;
+}
+
+.process__step:hover {
+  border-top-color: #FF5A00;
+  border-bottom-color: #FF5A00;
 }
 
 .process__step-number {
