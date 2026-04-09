@@ -121,9 +121,9 @@
 
   document.querySelectorAll('.nav__links a').forEach(function (link) {
     var href = link.getAttribute('href').replace(/\/$/, '').replace(/\.html$/, '');
-    if (href === '/' && currentPath === '/') {
-      link.classList.add('is-active');
-    } else if (href !== '/' && currentPath.indexOf(href) === 0) {
+    if (href === '' || href === '/') {
+      if (currentPath === '/') link.classList.add('is-active');
+    } else if (currentPath.indexOf(href) === 0) {
       link.classList.add('is-active');
     }
   });
