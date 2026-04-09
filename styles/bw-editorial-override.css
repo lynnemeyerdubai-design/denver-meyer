@@ -264,8 +264,7 @@ body {
 }
 
 /* Article pages — smaller, lighter heading */
-.article .page-header__title,
-body[data-page="insights"] .page-header__title {
+.article .page-header__title {
   font-size: clamp(1.75rem, 3.5vw, 2.5rem);
   font-weight: 300;
   line-height: 1.3;
