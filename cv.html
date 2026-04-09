@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — Denver Meyer</title>
+  <meta name="description" content="Creative Director with over two decades of experience shaping luxury retail environments across the Middle East, Africa, and Europe.">
+  <meta property="og:title" content="Denver Meyer — CV">
+  <meta property="og:description" content="Creative Director | Retail & Spatial Design | Luxury Brand Environments">
+  <meta property="og:image" content="/assets/denver-hero.jpeg">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/bw-editorial-override.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>D</text></svg>">
+  <style>
+    /* ── CV Page Styles ── */
+    .cv {
+      background: #FFFFFF;
+      padding: var(--space-5xl) 0 var(--space-2xl);
+    }
+
+    .cv__inner {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 var(--space-xl);
+    }
+
+    /* Header */
+    .cv__name {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #000;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+
+    .cv__tagline {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #444;
+      font-weight: 400;
+      margin-bottom: 0.25rem;
+    }
+
+    .cv__contact {
+      font-size: 0.8125rem;
+      color: #555;
+      letter-spacing: 0.04em;
+      margin-bottom: 2rem;
+    }
+
+    .cv__contact a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    .cv__contact a:hover {
+      color: #000;
+    }
+
+    /* Divider */
+    .cv__divider {
+      width: 36px;
+      height: 1px;
+      background: #000;
+      margin: 2rem 0 1.75rem;
+    }
+
+    .cv__divider--full {
+      width: 100%;
+      height: 1px;
+      background: #D0D0D0;
+      margin: 2rem 0 1.75rem;
+    }
+
+    /* Section title */
+    .cv__section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 0.875rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #000 !important;
+      margin-bottom: 1.25rem;
+    }
+
+    /* Profile */
+    .cv__profile p {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+    }
+
+    .cv__profile p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Role blocks */
+    .cv__role {
+      margin-bottom: 1.75rem;
+    }
+
+    .cv__role:last-child {
+      margin-bottom: 0;
+    }
+
+    .cv__company {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #000;
+      margin-bottom: 0.1rem;
+    }
+
+    .cv__location {
+      font-size: 0.75rem;
+      color: #666;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.35rem;
+    }
+
+    .cv__role-title {
+      font-size: 0.9375rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      margin-bottom: 0.1rem;
+    }
+
+    .cv__role-dates {
+      font-size: 0.75rem;
+      color: #777;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.75rem;
+    }
+
+    .cv__role ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .cv__role li {
+      font-size: 0.875rem;
+      line-height: 1.7;
+      color: #222;
+      padding-left: 0.75rem;
+      position: relative;
+      margin-bottom: 0.15rem;
+    }
+
+    .cv__role li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+      width: 3px;
+      height: 3px;
+      background: #666;
+      border-radius: 50%;
+    }
+
+    /* Early career */
+    .cv__early-item {
+      font-size: 0.875rem;
+      color: #222;
+      line-height: 1.9;
+    }
+
+    .cv__early-item span {
+      color: #666;
+      font-size: 0.75rem;
+    }
+
+    /* Two column */
+    .cv__two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 3rem;
+      align-items: start;
+    }
+
+    @media (max-width: 480px) {
+      .cv__two-col {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+    }
+
+    .cv__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .cv__list li {
+      font-size: 0.875rem;
+      color: #222;
+      line-height: 2;
+    }
+
+    /* Tools inline */
+    .cv__tools-inline {
+      font-size: 0.875rem;
+      color: #222;
+      line-height: 1.8;
+    }
+
+    /* Awards */
+    .cv__award {
+      font-size: 0.875rem;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    /* Projects — clean lines, no bullets */
+    .cv__project-line {
+      font-size: 0.875rem;
+      color: #1a1a1a;
+      line-height: 2;
+      font-weight: 400;
+    }
+
+    /* Download button */
+    .cv__download {
+      display: inline-block;
+      margin-top: 2.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #fff;
+      background: #000;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background var(--transition-fast);
+      cursor: pointer;
+      border: none;
+      font-family: var(--font-primary);
+    }
+
+    .cv__download:hover {
+      background: #222;
+    }
+
+    /* Also link to portfolio version */
+    .cv__alt-link {
+      display: inline-block;
+      margin-left: 1rem;
+      font-size: 0.75rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #777;
+      text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+
+    .cv__alt-link:hover {
+      color: #000;
+    }
+
+    /* Print styles */
+    @media print {
+      .nav, .footer, .cv__download, .cv__alt-link {
+        display: none !important;
+      }
+
+      body {
+        background: #fff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .cv {
+        padding: 0;
+      }
+
+      .cv__inner {
+        max-width: none;
+        padding: 1cm 2cm 0.5cm;
+      }
+
+      /* Make all elements visible */
+      .fade-in {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+
+      /* Prevent awkward page breaks */
+      .cv__role, .cv__two-col, .cv__profile {
+        page-break-inside: avoid;
+      }
+
+      /* Tighten spacing for print */
+      .cv__divider {
+        margin: 1.25rem 0 1.25rem;
+      }
+
+      .cv__role {
+        margin-bottom: 1.25rem;
+      }
+
+      /* Clean link styling */
+      a {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+    }
+  </style>
+</head>
+<body data-page="cv">
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <nav class="nav__inner" aria-label="Main navigation">
+      <a href="/" class="nav__logo">Denver Meyer</a>
+      <ul class="nav__links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/portfolio.html">Portfolio</a></li>
+        <li><a href="/insights.html">Insights</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-mobile">
+        <span></span><span></span>
+      </button>
+    </nav>
+    <div class="nav__mobile" id="nav-mobile" aria-hidden="true">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/services.html">Services</a>
+      <a href="/portfolio.html">Portfolio</a>
+      <a href="/insights.html">Insights</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- No page header — straight into CV -->
+
+    <!-- CV Content -->
+    <section class="cv">
+      <div class="cv__inner">
+
+        <!-- Header -->
+        <h2 class="cv__name">Denver Meyer</h2>
+        <div class="cv__tagline">Creative Director | Retail &amp; Spatial Design | Luxury Brand Environments</div>
+        <div class="cv__contact">Dubai, United Arab Emirates &ensp;&middot;&ensp; +971 50 5500 431 &ensp;&middot;&ensp; <a href="mailto:denver.meyer@krea8tivdesignconcepts.com">denver.meyer@krea8tivdesignconcepts.com</a></div>
+
+        <!-- Profile -->
+        <div class="cv__section-title">Profile</div>
+        <div class="cv__profile">
+          <p>Creative Director with over two decades of experience shaping luxury retail environments across the Middle East, Africa, and Europe. Known for translating brand vision into physical spaces that elevate customer experience and commercial performance — from flagship boutiques to multi-market rollouts.</p>
+          <p>Led regional design for Parfums Christian Dior, delivering high-impact retail concepts across diverse markets while balancing creative integrity, operational execution, and ROI. Combines strong conceptual thinking with hands-on delivery across spatial design, visual merchandising, and project execution — bringing ideas to life from concept through to installation.</p>
+        </div>
+
+        <div class="cv__divider"></div>
+
+        <!-- Experience -->
+        <div class="cv__section-title">Professional Experience</div>
+
+        <div class="cv__role">
+          <div class="cv__company">Kreativ Design Concepts FZE</div>
+          <div class="cv__location">Dubai, United Arab Emirates</div>
+          <div class="cv__role-title">Founder &amp; Creative Director (Independent Design Practice)</div>
+          <div class="cv__role-dates">2019 – Present</div>
+          <ul>
+            <li>Lead end-to-end design delivery across retail, hospitality, and commercial environments</li>
+            <li>Translate client vision into spatial concepts aligned to brand and commercial objectives</li>
+            <li>Oversee design development, material selection, and execution across multiple projects</li>
+            <li>Partner with clients and contractors to ensure design integrity through to completion</li>
+          </ul>
+        </div>
+
+        <div class="cv__role">
+          <div class="cv__company">Parfums Christian Dior Orient</div>
+          <div class="cv__location">Dubai, United Arab Emirates</div>
+          <div class="cv__role-title">Regional Retail Design &amp; Visual Merchandising Director (Middle East, Africa &amp; India)</div>
+          <div class="cv__role-dates">2014 – 2018</div>
+          <ul>
+            <li>Led regional design strategy for Dior Parfums retail environments across multiple markets</li>
+            <li>Delivered boutique rollouts, shop-in-shops, and visual merchandising concepts at scale</li>
+            <li>Managed cross-market design execution, ensuring consistency with global brand standards</li>
+            <li>Oversaw capital expenditure and project delivery to align design with commercial outcomes</li>
+            <li>Mentored and developed regional design teams, building capability across markets</li>
+          </ul>
+        </div>
+
+        <div class="cv__role">
+          <div class="cv__role-title">Regional Architecture Manager</div>
+          <div class="cv__role-dates">2007 – 2014</div>
+          <ul>
+            <li>Delivered retail design concepts and rollouts across Middle East, Africa, and India</li>
+            <li>Ensured alignment with global brand guidelines while adapting to local market needs</li>
+            <li>Managed supplier network and project execution from design through installation</li>
+            <li>Conducted market visits to assess performance and refine design strategies</li>
+          </ul>
+        </div>
+
+        <div class="cv__divider"></div>
+
+        <!-- Early Career -->
+        <div class="cv__section-title">Early Career</div>
+        <div>
+          <div class="cv__early-item">Creative Director (Freelance) <span>— Dubai, UAE</span></div>
+          <div class="cv__early-item">Group Merchandising Manager <span>— Paris Gallery Group, UAE</span></div>
+          <div class="cv__early-item">Regional Visual Merchandising Manager <span>— Edgars, South Africa</span></div>
+          <div class="cv__early-item">Visual Merchandising Supervisor <span>— Woolworths, South Africa</span></div>
+          <div class="cv__early-item">Regional Visual Merchandising Specialist <span>— Truworths, South Africa</span></div>
+          <div class="cv__early-item">Menswear Sales Specialist <span>— Truworths, South Africa</span></div>
+        </div>
+
+        <div class="cv__divider"></div>
+
+        <!-- Two column: Capabilities + Tools -->
+        <div class="cv__two-col">
+          <div>
+            <div class="cv__section-title">Core Capabilities</div>
+            <ul class="cv__list">
+              <li>Retail &amp; Spatial Design</li>
+              <li>Creative Direction</li>
+              <li>Visual Merchandising</li>
+              <li>Concept Development</li>
+              <li>Brand Environment Design</li>
+              <li>Project Delivery</li>
+              <li>Team Leadership</li>
+            </ul>
+          </div>
+          <div>
+            <div class="cv__section-title">Tools &amp; Software</div>
+            <div class="cv__tools-inline">AutoCAD | SketchUp | 3ds Max | Adobe Suite | V-Ray</div>
+            <div style="margin-top: 1.5rem;">
+              <div class="cv__section-title">Languages</div>
+              <div class="cv__tools-inline">English (Native) | French (Beginner) | Spanish (Beginner)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv__divider"></div>
+
+        <!-- Awards -->
+        <div class="cv__section-title">Awards</div>
+        <div class="cv__award">Best Visual Merchandising — Dubai Shopping Festival (2004, 2005)</div>
+
+        <div class="cv__divider"></div>
+
+        <!-- Selected Projects -->
+        <div class="cv__section-title">Selected Project Experience</div>
+        <div>
+          <div class="cv__project-line">Dior Parfums Boutique Rollouts — Middle East &amp; Africa</div>
+          <div class="cv__project-line">Luxury Retail Concept Development — Multi-Market Execution</div>
+          <div class="cv__project-line">Shop-in-Shop &amp; Visual Merchandising Installations — Regional Portfolio</div>
+          <div class="cv__project-line">Independent Retail &amp; Hospitality Design Projects — UAE</div>
+        </div>
+
+        <!-- Actions -->
+        <div style="margin-top: 3rem;">
+          <a href="/portfolio" class="cv__download" style="text-decoration: none;">View Portfolio &rarr;</a>
+          <button class="cv__alt-link" onclick="window.print()" style="border: none; background: none; cursor: pointer; font-family: var(--font-primary);">Download CV</button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom">
+        <span>&copy; 2026 Denver Meyer. All rights reserved.</span>
+        <div class="footer__links">
+          <a href="https://www.linkedin.com/in/denvermeyer" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/krea8tivdesignconcepts/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="mailto:denver.meyer@krea8tivdesignconcepts.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
